@@ -105,8 +105,8 @@ image::attorney-service.png[Сервис для работы с МЧД]
 Если планируется использовать МЧД в модуле {em} без СКД, с ограниченным набором сценариев: доступно только подписание, но не отправка в распределённый реестр, требования к модулю {bo} могут быть снижены:
 
 * Серверная и клиентская части модуля _{bo}_ версии {bo-req}.
-//
-// В последующих версиях модуля _{bo}_ работа без СКД не поддерживается. После обновления модуля _{bo}_ необходимо загрузить имеющиеся МЧД с помощью метода `ImportPowerOfAttorney`, входящего в интерфейс "xref:programmer:BackOffice-ObjectModel-Services-IPartnersService:IPowerOfAttorneyService_IN.adoc[IPowerOfAttorneyService]".
+
+В последующих версиях модуля _{bo}_ работа без СКД не поддерживается. После обновления модуля _{bo}_ необходимо загрузить имеющиеся МЧД с помощью метода `ImportPowerOfAttorney`, входящего в интерфейс "xref:programmer:BackOffice-ObjectModel-Services-IPartnersService:IPowerOfAttorneyService_IN.adoc[IPowerOfAttorneyService]".
 ****
 
 .Чтобы использовать МЧД без СКД необходимо:

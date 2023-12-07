@@ -106,7 +106,7 @@ image::attorney-service.png[Сервис для работы с МЧД]
 
 * Серверная и клиентская части модуля _{bo}_ версии {bo-req}.
 
-В последующих версиях модуля _{bo}_ работа без СКД не поддерживается. После обновления модуля _{bo}_ необходимо загрузить имеющиеся МЧД с помощью метода `ImportPowerOfAttorney`, входящего в интерфейс "xref:programmer:BackOffice-ObjectModel-Services-IPartnersService:IPowerOfAttorneyService_IN.adoc[IPowerOfAttorneyService]".
+В версиях модуля _{bo}_ с поддержкой СКД ({bo-req-m4d}) работа без СКД не поддерживается. После обновления модуля _{bo}_ до версии {bo-req-m4d} необходимо загрузить имеющиеся МЧД с помощью метода `ImportPowerOfAttorney`, входящего в интерфейс "xref:programmer:BackOffice-ObjectModel-Services-IPartnersService:IPowerOfAttorneyService_IN.adoc[IPowerOfAttorneyService]".
 ****
 
 .Чтобы использовать МЧД без СКД необходимо:

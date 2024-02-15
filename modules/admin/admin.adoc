@@ -16,7 +16,6 @@
 *** xref:formal-settings.adoc[]
 **** xref:formal-act-settings.adoc[]
 *** xref:diadoc-exchange.adoc[]
-*** xref:attorney-settings.adoc[]
 ** xref:appendix/index.adoc[]
 *** xref:appendix/informal-procedure.adoc[]
 *** xref:appendix/formal-procedure.adoc[]

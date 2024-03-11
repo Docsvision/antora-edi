@@ -38,8 +38,6 @@
 --
 +
 '''
-include::winuser:partial$m4d-sign.adoc[]
-+
 include::winuser:partial$tin.adoc[]
 '''
 +

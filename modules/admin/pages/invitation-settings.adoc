@@ -62,22 +62,6 @@ image::data-source.png[Указание источника данных]
 using DocsVision.Edi.DocumentScript;
 ----
 +
-// . В скрипты _Исходящего_ и _Входящего_ приглашений добавьте следующий обработчик событий:
-// +
-// [source,javascript]
-// ----
-// private EdiScriptHelper ediScriptHelper;
-// public EdiScriptHelper EdiScriptHelper
-// {
-//   get
-//     {
-//       if (ediScriptHelper == null)
-//       ediScriptHelper = new EdiScriptHelper(CardControl);
-//       return ediScriptHelper;
-//     }
-//   }
-// ----
-// +
 . В раздел подключаемых пространств имен добавьте:
 +
 [source,csharp]

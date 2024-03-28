@@ -1,0 +1,5 @@
+* Администрирование коннектора к Такском
+** xref:general-info.adoc[]
+** xref:install.adoc[]
+** xref:connection-settings.adoc[]
+** xref:attorney.adoc[]

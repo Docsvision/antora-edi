@@ -1,5 +1,5 @@
 name: edi
-version: '5.5.5'
+version: 'GBL-1906'
 title: Модуль интеграции с операторами ЭДО
 asciidoc:
   attributes:
@@ -27,5 +27,6 @@ nav:
 - modules/schema/schema.adoc
 - modules/diadoc/diadoc.adoc
 #- modules/sbis/sbis.adoc
+- modules/taxcom/taxcom.adoc
 
 #  start_page: ROOT:index.adoc

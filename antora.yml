@@ -15,6 +15,7 @@ asciidoc:
     ws-req: 'версии 6.1'
     edi-req: '6.1'
     edi-req-m4d: '6.1'
+    edi-req-tx: '6.1 сборка ??? и выше'
     of-em: 'Модуля интеграции с операторами ЭДО'
     bo-req-m4d: '6.1'
     no-config: ''

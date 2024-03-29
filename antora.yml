@@ -1,6 +1,5 @@
 name: edi
-version: '6.1'
-#display_version: 'dev'
+version: 'GBL-3538'
 title: Модуль интеграции с операторами ЭДО
 asciidoc:
   attributes:
@@ -19,6 +18,8 @@ asciidoc:
     of-em: 'Модуля интеграции с операторами ЭДО'
     bo-req-m4d: '6.1'
     no-config: ''
+    txc: 'Коннектор к Такском-Файлер'
+    tf: 'Такском-Файлер'
 
 nav:
 - modules/ROOT/nav.adoc
@@ -30,5 +31,6 @@ nav:
 - modules/schema/schema.adoc
 - modules/diadoc/diadoc.adoc
 #- modules/sbis/sbis.adoc
+- modules/taxcom/taxcom.adoc
 
 #  start_page: ROOT:index.adoc

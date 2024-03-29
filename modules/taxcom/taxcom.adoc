@@ -1,4 +1,4 @@
-* Администрирование коннектора к Такском
+* Администрирование коннектора к {tf}
 ** xref:general-info.adoc[]
 ** xref:install.adoc[]
 ** xref:connection-settings.adoc[]

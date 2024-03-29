@@ -13,11 +13,9 @@ include::partial$tin.adoc[]
 image::select-certificate.png[Выбор сертификата электронной подписи]
 +
 '''
-+
 include::partial$m4d-sign.adoc[]
 +
 include::partial$tin.adoc[]
-+
 '''
 +
 * *Отказ в подписании документа* -- для отказа от подписания полученного документа. При этом нужно будет указать причину отказа.

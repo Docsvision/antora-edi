@@ -20,14 +20,14 @@
 
 . При xref:admin:install.adoc[установке {of-em}] будет предложено установить также:
 +
-* `docsivision-edi-taxcom-server` -- дополнительный компонент модуля, добавляющий поддержку работы с оператором {tf}.
+* `docsivision-edi-taxcomfajler-server` -- дополнительный компонент модуля, добавляющий поддержку работы с оператором {tf}.
 +
 . _Коннектор к {tf}_ может быть установлен следующей командой с предварительным обновлением индекса пакетов:
 +
 [source,bash]
 ----
 sudo apt-get update
-sudo apt-get install docsvision-edi-taxcom-server
+sudo apt-get install docsvision-edi-taxcomfajler-server
 ----
 // end::install[]
 
@@ -65,4 +65,4 @@ sudo apt-get install docsvision-edi-taxcom-server
 +
 . В ОС Linux удалить компоненты можно командой:
 +
- $ sudo apt-get purge docsivision-edi-taxcom-server
+ $ sudo apt-get purge docsivision-edi-taxcomfajler-server

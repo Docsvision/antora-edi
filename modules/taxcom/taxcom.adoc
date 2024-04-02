@@ -1,4 +1,4 @@
-* Администрирование коннектора к {{tx}}
+* Администрирование коннектора к {tx}
 ** xref:general-info.adoc[]
 ** xref:install.adoc[]
 ** xref:connection-settings.adoc[]

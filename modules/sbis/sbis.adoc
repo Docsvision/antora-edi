@@ -1,4 +1,4 @@
-* Администрирование коннектора к Диадок
+* Администрирование коннектора к СБИС
 ** xref:general-info.adoc[]
 ** xref:install.adoc[]
 ** xref:connection-settings.adoc[]

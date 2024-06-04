@@ -1,6 +1,6 @@
 name: edi
-version: 'GBL-3584'
-prerelease: true
+version: '5.5.5'
+prerelease: false
 title: Модуль интеграции с операторами ЭДО
 asciidoc:
   attributes:

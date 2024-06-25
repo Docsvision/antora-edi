@@ -113,6 +113,8 @@ image::attorney-service.png[Сервис для работы с МЧД]
 // В последующих версиях модуля _{bo}_ работа без СКД не поддерживается. После обновления модуля _{bo}_ необходимо загрузить имеющиеся МЧД с помощью метода `ImportPowerOfAttorney`, входящего в интерфейс "xref:programmer:BackOffice-ObjectModel-Services-IPartnersService:IPowerOfAttorneyService_IN.adoc[IPowerOfAttorneyService]".
 ****
 
+NOTE: На данный момент чтение МЧД из полей карточки реализовано только для начальной отправки документа или отправки ответа на неформализованный документ.
+
 .Чтобы использовать МЧД без СКД необходимо:
 . Выполнить пункты 1-10 из <<config,инструкции>> выше.
 . Используя программу DVExplorer из комплекта утилит {rk}, импортируйте файл `CardDocument_PowerOfAttorney.xml`. Файл хранится в каталоге `C:\Program Files (x86)\Docsvision\Edi\5.5\CardPackage`.

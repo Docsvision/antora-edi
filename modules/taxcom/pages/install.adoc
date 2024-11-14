@@ -12,6 +12,8 @@
 . Пакет установки серверной части Коннектора: `TaxcomConnectorServer.msi`.
 . Пакет установки клиентской части Коннектора: `TaxcomConnectorClient.msi`.
 
+include::ROOT:partial$excerpts.adoc[tags=settings]
+
 [#server]
 == Установка серверной части Коннектора
 
@@ -25,6 +27,7 @@
 ====
 
 . Запустите пакет установки `TaxcomConnectorServer.msi`.
+include::ROOT:partial$excerpts.adoc[tags=install-edi]
 +
 .Мастер установки серверной части Коннектора
 image::install-server-hello.png[Мастер установки серверной части Коннектора]
@@ -54,6 +57,9 @@ image::install-client-hello.png[Мастер установки клиентск
 image::install-client-license.png[Условия лицензионного соглашения]
 +
 . В следующем окне нажмите *Установить* и дождитесь завершения установки _Коннектора_.
++
+include::ROOT:partial$excerpts.adoc[tags=db-select]
++
 . Нажмите на кнопку *Готово*.
 
 [#uninstall]

@@ -50,6 +50,7 @@
 * `UniInvoiceFields`
 * `UniInvoiceSF`
 * `UniInvoiceTorgRu`
+* `UniInvoice970Ru`
 
 [#formalized-folders]
 == Настройка папок для формализованных документов
@@ -149,6 +150,7 @@ private void Print_ItemClick(System.Object sender, DevExpress.XtraBars.ItemClick
 <.> В параметре метода указывается название шаблона печати:
 +
 * `UniInvoiceRU` -- стандартный шаблон для видов _Входящий УПД_ и _Формализованный акт_.
+* `UniInvoice970Ru` -- стандартный шаблон для вида _Входящий УПД (970)_.
 * `UniInvoiceCorrectionRU` -- стандартный шаблон для вида _Входящий УКД_.
 +
 .. Обновление печатной формы (вкладка _Печатная форма_). Данная функция должна вызываться при активации карточки (_CardActivated_).
@@ -253,6 +255,7 @@ private void PrintUPD_ItemClick(System.Object sender, DevExpress.XtraBars.ItemCl
 ----
 <.> В параметре метода указывается название шаблона печати:
 * `UniInvoiceRU` -- стандартный шаблон для видов _Исходящий УПД_ и _Исправление УПД_.
+* `UniInvoice970Ru` -- стандартный шаблон для вида _Исходящий УПД (970)_.
 * `UniInvoiceCorrectionRu` -- стандартный шаблон для вида _Исходящий УКД_.
 +
 .. Обновление печатной формы (вкладка _Печатная форма_). Данная функция должна вызываться при активации карточки (_CardActivated_).

@@ -18,6 +18,7 @@
 * `CardDefs\Xslt\UniInvoiceFields.xslt` -- шаблон преобразования для УПД.
 * `CardDefs\Xslt\UniInvoiceSF.xslt` -- шаблон преобразования для Счета-фактуры.
 * `CardDefs\Xslt\UniInvoiceTorgRu.xslt` -- шаблон преобразования для Товарной накладной ТОРГ-12.
+* `CardDefs\Xslt\UniInvoice970.ru.xslt` -- шаблон преобразования для УПД формата 970.
 --
 +
 .Шаблоны построены по следующей логике:

@@ -1,4 +1,4 @@
-* xref:index.adoc[]
+* xref:Edi.adoc[]
 ** xref:CardEdiInvitation.adoc[]
 ** xref:CardEdiMessage.adoc[]
 ** xref:CardEdiPowerOfAttorney.adoc[]

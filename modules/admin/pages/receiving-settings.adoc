@@ -16,7 +16,7 @@ image::receiving-settings.png[Настройки получения электр
 Список типов документов оператора Диадок приведен на странице http://api-docs.diadoc.ru/ru/latest/docflows/AttachmentVersion.html[по ссылке].
 ====
 +
-. В поле _Версия_ для получаемых формализованных документов, сформированных в формате https://normativ.kontur.ru/document?moduleId=1&documentId=464695[970 приказа] (для Диадок) нужно указывать версию формата: `utd970_05_02_01` или `utd970_05_02_01_hyphen`.
+. В поле _Версия_ для получаемых формализованных документов, сформированных в формате https://normativ.kontur.ru/document?moduleId=1&documentId=464695[970 приказа]footnote:[В данный момент формат поддерживается только для коннектора к Диадок.] нужно указывать версию формата: `utd970_05_02_01` или `utd970_05_02_01_hyphen`.
 +
 * Для формата https://normativ.kontur.ru/document?moduleId=1&documentId=328588[820 приказа] укажите `utd820_05_01_01` или `utd820_05_01_01_hyphen`.
 +

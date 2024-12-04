@@ -1,6 +1,6 @@
-= Обновление модуля
+:update: edi
 
-:update: edi-*
+= Обновление модуля
 
 include::webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 

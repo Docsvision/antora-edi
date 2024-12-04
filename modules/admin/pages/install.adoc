@@ -115,8 +115,12 @@ WARNING: Обратите внимание, клиентские компоне�
 [#web]
 == Установка {wc}а
 
-. Если планируется работа через интерфейс {wc}а, установите серверную и клиентскую части модуля {wc} версии {wc-req-m4d} согласно инструкции приведённой в документации модуля {wc}, раздел xref:dev@winclient:admin:install.adoc[].
-. Дополнительно на сервере Linux установите _Компоненты модуля интеграции с операторами ЭДО_ для {wc}а командой `sudo apt-get install docsvision-ext-edi-webc`.
+. Если планируется работа через интерфейс {wc}а, установите серверную и клиентскую части модуля {wc} версии {wc-req-m4d} согласно инструкции приведённой в документации модуля {wc}, раздел xref:6.1@winclient:admin:install.adoc[].
+. Дополнительно на сервере Linux установите _Компо1ненты модуля интеграции с операторами ЭДО_ для {wc}а:
++
+:wt: edi-ext-edi-webc
+include::dev@platform:admin:partial$install.adoc[tags=commands]
++
 . На машине с Windows установите _{dv} Расширение ЭДО для Web-клиента_, запустив инсталлятор `{dv} EDI extension for Web-client.msi`.
 . После установки импортируйте решение _Интеграция с операторами ЭДО_ с web-разметками, из папки `C:\Program Files (x86)\Docsvision\WebClient\LayoutSolutions\EDISolution`. Импортировать решение можно через Панель управления {wc}ом или {kvr}.
 
@@ -133,5 +137,5 @@ include::diadoc:install.adoc[tags=install]
 
 . Чтобы удалить модуль, выполните команду:
 +
-[subs=attributes]
- $ sudo apt-get purge docsvision-{wt}
+include::dev@platform:admin:partial$delete.adoc[]
++

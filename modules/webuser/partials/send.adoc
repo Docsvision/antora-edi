@@ -9,7 +9,7 @@ include::ROOT:partial$addressees.adoc[]
 ifndef::exist[]
 . Подпишите файлы при помощи действительного сертификата ЭП. Файлы можно подписать при помощи кнопки image:dev@webclient:user:buttons/signature-stamp-contour.png[Печать], см. подробнее в разделе "xref:dev@webclient:user:docs-sign.adoc#signing[Подписание документа]" документации {wc}а.
 +
-include::dev@webclient:user:docs-sign.adoc[tags=select]
+include::5.5.17@webclient:user:docs-sign.adoc[tags=select]
 . Выберите любой сертификат из списка, чтобы подписать документ усиленной локальной или облачной подписью.
 endif::[]
 . Нажмите кнопку *Отправить* на ленте карточки (кнопка добавляется администратором, название может не совпадать).

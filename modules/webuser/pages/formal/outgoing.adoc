@@ -17,7 +17,9 @@ image::digital-signature.png[Выбор сертификата электрон�
 include::winuser:partial$tin.adoc[]
 +
 * Запросить аннулирование -- для счёт-фактуры.
-* Запросить уточнение у _Продавца_.
+* [[RequestForCorrection]]Запросить уточнение у _Продавца_.
++
+include::ROOT:partial$excerpts.adoc[tags=RequestForCorrection]
 +
 . _Продавец_ получает ответ от _Покупателя_.
 +

@@ -54,6 +54,8 @@ image::install-client-license.png[Условия лицензионного со
 +
 . В следующем окне нажмите *Установить* и дождитесь завершения установки _Коннектора_.
 . Нажмите на кнопку *Готово*.
++
+include::ROOT:partial$excerpts.adoc[tags=last-connector]
 
 [#uninstall]
 == Удаление Коннектора

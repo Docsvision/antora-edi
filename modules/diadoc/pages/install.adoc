@@ -27,6 +27,8 @@
 . _Коннектор к Диадок_ может быть установлен следующей командой с предварительным обновлением индекса пакетов:
 include::dev@platform:admin:partial$install.adoc[tags=commands]
 // end::install[]
++
+include::ROOT:partial$excerpts.adoc[tags=last-connector]
 
 [#client]
 == Установка клиентской части Коннектора

@@ -15,6 +15,8 @@ include::5.5.17@webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 [#update]
 == Порядок обновления
 
+WARNING: При выполнении данной операции в БД {dv} будут загружены стандартные настройки {of-em}. Рекомендуем перед обновлением БД экспортировать _Справочник настроек операторов ЮЗДО_ для последующего его импорта после обновления БД.
+
 .Чтобы установить новую версию модуля:
 . Создайте резервную копию БД.
 include::system::partial$stop.adoc[]
@@ -23,6 +25,8 @@ include::system::partial$stop.adoc[]
 При обновлении используется каталог и область установки текущей версии.
 +
 include::system::partial$go.adoc[]
++
+include::system:ROOT:partial$excerpts.adoc[tags=update-mode]
 +
 .Флаг обновления базы данных
 image::install-update-db-flag.png[Флаг обновления базы данных]

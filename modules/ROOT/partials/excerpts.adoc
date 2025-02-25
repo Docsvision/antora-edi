@@ -22,3 +22,7 @@
 // tag::last-connector[]
 . Если коннектор устанавливается последним, запустите {cns} и выполните настройку системы следуя инструкции, данной в документации модуля {pl} xref:dev@platform:admin:config-master.adoc[здесь] и xref:6.1@platform:admin:post-config-server.adoc[здесь].
 // end::last-connector[]
+
+// // tag::RequestForCorrection[]
+// NOTE: Недоступно при работе c Коннектором к {tx}.
+// // end::RequestForCorrection[]

@@ -1,4 +1,4 @@
-:970-in:
+:970:
 
 = Входящий УПД
 
@@ -14,5 +14,3 @@ include::partial$elements.adoc[tags=ribbon]
 include::ROOT:partial$excerpts.adoc[tags=RequestForCorrection]
 +
 include::partial$elements.adoc[tags=upd-info]
-+
-include::partial$areas.adoc[]

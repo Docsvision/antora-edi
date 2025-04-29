@@ -15,8 +15,6 @@ ifdef::notice[]
 endif::[]
 +
 .Диалог выбора сертификата для подписания
-// image::select-cert-web-16.png[Диалог выбора сертификата для подписания]
-// image::digital-signature.png[Выбор сертификата электронной подписи]
 image::5.5.17@webclient:user:sign-no-attorney.png[Выбор сертификата для подписания из списка]
 
 ifndef::notice[]

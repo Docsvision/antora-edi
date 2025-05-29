@@ -21,6 +21,7 @@ asciidoc:
     bo-req-m4d: '5.5.5, сборка 8670'
     txc: 'Коннектор к Такском'
     tx: 'Такском'
+    net-v: '4.7.1'
 
 nav:
 - modules/ROOT/nav.adoc

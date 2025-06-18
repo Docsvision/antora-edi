@@ -8,8 +8,8 @@
 .МЧД с СКД:
 * Модуль _{bo}_ с поддержкой xref:system:ROOT:terms.adoc#attorney[СКД]: *версии {bo-req-m4d}* и выше.footnote:[Допускается работа с модулем _{bo}_ {bo-req}, если планируется использование МЧД только для подписания (без xref:system:ROOT:terms.adoc#attorney[СКД].]
 * Модуль _{em}_ версии {edi-req-m4d} и выше.
-* *Для работы через интерфейс {wc}а.* Модуль _{wc}_ {wc-req-m4d} и выше с установленными _Компонентами модуля интеграции с операторами ЭДО_.footnote:[Для работы без xref:system:ROOT:terms.adoc#attorney[СКД] потребуется модуль _{wc}_ {wc-req} и выше с установленными _Компонентами модуля интеграции с операторами ЭДО_. Большинство функций, описанных в xref:dv5@programmer:WebClient::other/powers-of-attorney.adoc[примере решения МЧД для {wc}а] окажутся недоступны. Также потребуются дополнительные настройки, описанные в разделе "xref:admin:attorney-settings.adoc#no-skd[Настройка работы с МЧД без СКД]".]
-** Пример решения МЧД для {wc}а: "xref:dv5@programmer:WebClient::other/powers-of-attorney.adoc[]".
+* *Для работы через интерфейс {wc}а.* Модуль _{wc}_ {wc-req-m4d} и выше с установленными _Компонентами модуля интеграции с операторами ЭДО_.footnote:[Для работы без xref:system:ROOT:terms.adoc#attorney[СКД] потребуется модуль _{wc}_ {wc-req} и выше с установленными _Компонентами модуля интеграции с операторами ЭДО_. Большинство функций, описанных в xref:dv5@programmer:WebClient:other/powers-of-attorney.adoc[примере решения МЧД для {wc}а] окажутся недоступны. Также потребуются дополнительные настройки, описанные в разделе "xref:admin:attorney-settings.adoc#no-skd[Настройка работы с МЧД без СКД]".]
+** Пример решения МЧД для {wc}а: "xref:dv5@programmer:WebClient:other/powers-of-attorney.adoc[]".
 
 [#config]
 == Необходимые настройки
@@ -57,7 +57,7 @@ include::ROOT:partial$excerpts.adoc[tags=connector]
 .Сервис для работы с МЧД
 image::attorney-service.png[Сервис для работы с МЧД]
 +
-. Создайте вид карточки для работы с МЧД. Для Web-клиента можно воспользоваться готовым примером. Для этого нужно импортировать вид карточки документа ПКД menu:PowersOfAttorney[Data > SolutionOfPOA.sol] из примера "xref:dv5@programmer:WebClient::other/powers-of-attorney.adoc[]". +
+. Создайте вид карточки для работы с МЧД. Для Web-клиента можно воспользоваться готовым примером. Для этого нужно импортировать вид карточки документа ПКД menu:PowersOfAttorney[Data > SolutionOfPOA.sol] из примера "xref:dv5@programmer:WebClient:other/powers-of-attorney.adoc[]". +
 Для работы с _Модулем интеграции с реестром МЧД_ в примере доступны специальные разметки. После загрузки решения становятся доступными новые разметки, для работы с _Модулем интеграции с реестром МЧД_  используются соответствующие разметки.
 +
 . На вкладке _Компоненты_:

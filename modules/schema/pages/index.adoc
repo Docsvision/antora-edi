@@ -1,17 +1,13 @@
-:page-layout: home
+= Обмен юридически значимыми документами
 
-= Описание схем карточек модуля
+Идентификатор: `C870199B-133D-449F-B461-43C505020991`
 
-[tabs]
-====
-{em}::
-+
-.Описание схем карточек модуля
-****
-Описание схем системных карточек {of-em}.
+Псевдоним: `Edi`
 
-* xref:CardEdiMessage.adoc[]
+Название: _Обмен юридически значимыми документами_
+
 * xref:EdiNavExtension.adoc[]
+* xref:CardEdiMessage.adoc[]
+* xref:CardEdiInvitation.adoc[]
 * xref:RefOperators.adoc[]
-****
-====
+* xref:CardEdiPowerOfAttorney.adoc[]

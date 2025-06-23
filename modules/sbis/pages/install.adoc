@@ -4,7 +4,7 @@
 == Требования
 
 .Работа с коннектором к СБИС предъявляет следующие требования к системе {dv}:
-. Серверная и клиентская части модуля _{edi_ версии {edi-req-sbis} и выше.
+. Серверная и клиентская части модуля _{em}_ версии {edi-req-sbis} и выше.
 
 [#package]
 == Состав установочного комплекта
@@ -26,8 +26,8 @@ include::ROOT:partial$excerpts.adoc[tags=settings]
 Администратор {dv} -- пользователь, включенный в группу безопасности "{dv} Administrators" на компьютере с сервером {dv}.
 ====
 
-include::ROOT:partial$excerpts.adoc[tags=install-edi]
 . Запустите пакет установки `SbisConnectorServer.msi`.
+include::ROOT:partial$excerpts.adoc[tags=install-edi]
 +
 .Мастер установки серверной части Коннектора
 image::install-server-hello.png[Мастер установки серверной части Коннектора]
@@ -57,10 +57,9 @@ image::install-client-hello.png[Мастер установки клиентск
 image::install-client-license.png[Условия лицензионного соглашения]
 +
 . В следующем окне нажмите *Установить* и дождитесь завершения установки _Коннектора_.
-+
-include::ROOT:partial$excerpts.adoc[tags=db-select]
-+
 . Нажмите на кнопку *Готово*.
++
+include::ROOT:partial$excerpts.adoc[tags=last-connector]
 
 [#uninstall]
 == Удаление Коннектора

@@ -16,7 +16,7 @@
 == Изменения в API
 
 * Добавлен новый интерфейс `IImportService2` для реализации постраничной загрузки контрагентов.
-* Описан класс `xref:programmer:api/BoxesService.adoc[BoxesService]` для выполнения стандартных операций.
+* Описан класс `xref:dv6@programmer:Edi:api/BoxesService.adoc[BoxesService]` для выполнения стандартных операций.
 +
 .Класс дополнен новыми методами:
 ** `ImportPartner(OperatorsOperator, string, string)` -- импортирует одного контрагента по ИНН и КПП.
@@ -24,10 +24,10 @@
 ** `ProcessAllNewInvitations(ILogWriter)` -- находит и обрабатывает все новые входящие приглашения.
 ** `ProcessAllNewInvitationsToSend(ILogWriter)` -- находит и обрабатывает все новые исходящие приглашения.
 ** `CheckInvitationsStatus(ILogWriter, DateTime?)` -- проверяет статус приглашений с указанной даты.
-* Добавлены xref:programmer:api/web-server-methods.adoc[методы] для серверного и клиентского расширения {wc}а.
+* Добавлены xref:dv6@programmer:Edi:api/web-server-methods.adoc[методы] для серверного и клиентского расширения {wc}а.
 * Добавлено описание для следующих классов:
-** `xref:programmer:api/DataReaderService.adoc[DataReaderService]`
-** `xref:programmer:api/DocumentUpdaterService.adoc[DocumentUpdaterService]`
-** `xref:programmer:api/InvitationService.adoc[InvitationService]`
-** `xref:programmer:api/LoaderService.adoc[LoaderService]`
-** `xref:programmer:api/OutgoingMessagesService.adoc[OutgoingMessagesService]`
+** `xref:dv6@programmer:Edi:api/DataReaderService.adoc[DataReaderService]`
+** `xref:dv6@programmer:Edi:api/DocumentUpdaterService.adoc[DocumentUpdaterService]`
+** `xref:dv6@programmer:Edi:api/InvitationService.adoc[InvitationService]`
+** `xref:dv6@programmer:Edi:api/LoaderService.adoc[LoaderService]`
+** `xref:dv6@programmer:Edi:api/OutgoingMessagesService.adoc[OutgoingMessagesService]`

@@ -29,6 +29,5 @@ nav:
 - modules/schema/schema.adoc
 - modules/diadoc/diadoc.adoc
 #- modules/sbis/sbis.adoc
-#- modules/taxcom/taxcom.adoc
 
 #  start_page: ROOT:index.adoc

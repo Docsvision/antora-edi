@@ -37,8 +37,6 @@ include::dev@webclient:user:docs-sign.adoc[tags=attorney]
 . Откройте полученный документ.
 . [[RequestForCorrection]]Нажмите кнопку *Запросить уточнение* на ленте карточки. Будет предложено указать комментарий к уточнению.
 +
-include::ROOT:partial$excerpts.adoc[tags=RequestForCorrection]
-+
 .Запрос уточнения
 image::clarification.png[Запрос уточнения]
 +

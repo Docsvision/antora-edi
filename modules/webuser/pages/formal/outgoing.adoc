@@ -19,8 +19,6 @@ include::winuser:partial$tin.adoc[]
 * Запросить аннулирование -- для счёт-фактуры.
 * [[RequestForCorrection]]Запросить уточнение у _Продавца_.
 +
-include::ROOT:partial$excerpts.adoc[tags=RequestForCorrection]
-+
 . _Продавец_ получает ответ от _Покупателя_.
 +
 .Если "Покупатель" подписал документ (был сформирован титул покупателя):

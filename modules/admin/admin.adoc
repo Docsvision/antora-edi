@@ -13,6 +13,7 @@
 **** xref:loading.adoc[]
 **** xref:invitation-settings.adoc[]
 *** xref:bp-launch.adoc[]
+*** xref:logs.adoc[]
 *** xref:incoming-roles.adoc[]
 *** xref:informal-settings.adoc[]
 *** xref:formal-settings.adoc[]
